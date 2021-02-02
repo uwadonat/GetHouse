@@ -2,20 +2,31 @@
     box-sizing: border-box;
 }
 
-
+main {
+    width: 100%;
+    margin-top: 90px;
+    }
 main:hover {
     text-decoration: none;
 }
 
 .navbar {
     background-color: darkcyan;
+    position: fixed; 
+    margin-top: 0; 
+    z-index: 1;
+    width: 87%;
 }
 
 .navbar-mob {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 92.2%;
+    margin-top: -85px;
+   
 }
+
 #logo {
     width: 4rem;
     height: auto;
@@ -102,6 +113,8 @@ main:hover {
         flex-direction: row;
         justify-content: space-between;
         margin-left: 0;
+        margin-top: -82px;
+        width: 86.5%;
     }
 
     .navbar-mob {
@@ -132,6 +145,14 @@ main:hover {
     .search-div .locate {
        grid-column: 1/2;
       
+    }
+    .navbar-desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 0;
+        margin-top: -82px;
+        width: 86.3%;
     }
    
   }
