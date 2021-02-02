@@ -27,7 +27,7 @@ main:hover {
    
 }
 
-#logo {
+.logo {
     width: 4rem;
     height: auto;
 }
@@ -36,18 +36,18 @@ main:hover {
     margin-top: 5px;
 }
 
-#navbar-links {
+.navbar-links {
     display:flex;
     flex-direction: row;
     list-style-type: none;
     justify-content: center;
 }
-#navbar-links > li {
+.navbar-links > li {
     padding: 0 7px;
     text-decoration: none;
     color: black;
 }
-#navbar-links > li > a {
+.navbar-links > li > a {
     text-decoration: none;
     color: black;
 }
