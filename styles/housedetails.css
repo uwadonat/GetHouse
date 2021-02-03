@@ -21,8 +21,19 @@
     .house-galery {
         display:grid;
         grid-template-columns: auto auto ;
-        grid-gap: 3px;
+        grid-gap: 1px;
+        max-width: 100%;
     }
+
+    .more-details {
+        margin-right: 0;
+    }
+
+    .house-galery > img {
+        width: 80%;
+    }
+
+   
 }
     
 
