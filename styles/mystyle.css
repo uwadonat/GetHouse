@@ -147,6 +147,10 @@ main:hover {
   color: black;
 }
 
+.search-link:hover {
+  text-decoration: none;
+}
+
 /* media queries for tablet */
 
 @media screen and (min-width: 768px) {
