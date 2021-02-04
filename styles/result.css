@@ -9,7 +9,7 @@
 
 .container > .search-result-section {
   order: 1;
-  margin-top: 10px
+  margin-top: 10px;
 }
 
 .top-highest {
@@ -62,7 +62,7 @@
 }
 
 .search-result-title {
-opacity: 0.7;
+  opacity: 0.7;
 }
 
 .top-houses-title {
@@ -91,19 +91,22 @@ opacity: 0.7;
   font-weight: bolder;
 }
 
-.filter-search-button1, .filter-search-button2 {
+.filter-search-button1 {
+  margin-top: 20px;
+  color: white;
+  border-radius: 3px;
+  background-color: blue;
+}
+
+.filter-search-button2 {
   margin-top: 20px;
   color: white;
   border-radius: 3px;
 }
 
-.filter-search-button1 {
-  background-color: blue;
-}
-
 .filter-search-button2 h6 {
   width: 100px;
-  background-color:yellowgreen;
+  background-color: yellowgreen;
   padding: 5px;
   text-decoration: none;
 }
@@ -112,6 +115,7 @@ opacity: 0.7;
   width: 60px;
   height: 26px;
 }
+
 /* media queries for tablet */
 
 @media screen and (min-width: 768px) {

@@ -12,12 +12,12 @@ main:hover {
 }
 
 .navbar {
-  background-color:sienna;
+  background-color: sienna;
   position: fixed;
   margin-top: 0;
   z-index: 1;
   width: 100%;
-  color:white;
+  color: white;
 }
 
 .navbar-mob {
@@ -52,7 +52,7 @@ main:hover {
 
 .navbar-links > li > a {
   text-decoration: none;
-  color:white;
+  color: white;
 }
 
 .navbar-desktop {
@@ -63,7 +63,7 @@ main:hover {
 
 .main-title {
   text-align: center;
-  color:white;
+  color: white;
   font-weight: bolder;
   font-size: 45px;
   padding-top: 35px;
@@ -120,7 +120,7 @@ main:hover {
 }
 
 #relax {
-   margin-left: 80px;
+  margin-left: 80px;
 }
 
 .search-div .locate-div {
@@ -137,7 +137,7 @@ main:hover {
   text-align: center;
   font-size: 25px;
   font-weight: bolder;
-  background-color:white;
+  background-color: white;
   padding: 10px;
   color: black;
   border-radius: 4px;
@@ -212,10 +212,6 @@ main:hover {
 /* media queries for desktop */
 
 @media screen and (min-width: 1024px) {
-   /* .search-div .locate-div {
-    grid-column: 1/2;
-  } */
-
   .navbar-desktop {
     display: flex;
     flex-direction: row;
