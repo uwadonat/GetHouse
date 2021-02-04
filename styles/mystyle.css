@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: lightskyblue;
-}
-
 main {
   width: 100%;
   margin-top: 90px;
@@ -16,11 +12,12 @@ main:hover {
 }
 
 .navbar {
-  background-color: darkcyan;
+  background-color:sienna;
   position: fixed;
   margin-top: 0;
   z-index: 1;
   width: 100%;
+  color:white;
 }
 
 .navbar-mob {
@@ -55,7 +52,7 @@ main:hover {
 
 .navbar-links > li > a {
   text-decoration: none;
-  color: black;
+  color:white;
 }
 
 .navbar-desktop {
@@ -64,8 +61,22 @@ main:hover {
 
 /* main part style */
 
+.main-title {
+  text-align: center;
+  color:white;
+  font-weight: bolder;
+  font-size: 45px;
+  padding-top: 35px;
+}
+
+.search-label {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: -8px;
+}
+
 .main-top {
-  background-image: url(/images/house.JPEG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -100,6 +111,16 @@ main:hover {
   justify-items: center;
   justify-content: center;
   margin-left: 60px;
+  margin-right: 25px;
+}
+
+.main-bottom-ttle {
+  color: yellowgreen;
+  margin-top: 40px;
+}
+
+#relax {
+   margin-left: 80px;
 }
 
 .search-div .locate-div {
@@ -116,8 +137,10 @@ main:hover {
   text-align: center;
   font-size: 25px;
   font-weight: bolder;
-  background-color: hotpink;
+  background-color:white;
   padding: 10px;
+  color: black;
+  border-radius: 4px;
   text-decoration: none;
 }
 
@@ -168,8 +191,10 @@ main:hover {
   }
 
   .main-bottom {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-right: 25px;
   }
 
   .main-search {
@@ -187,14 +212,9 @@ main:hover {
 /* media queries for desktop */
 
 @media screen and (min-width: 1024px) {
-  .locate-div {
-    margin-top: 25px;
-    margin-left: -35px;
-  }
-
-  .search-div .locate-div {
+   /* .search-div .locate-div {
     grid-column: 1/2;
-  }
+  } */
 
   .navbar-desktop {
     display: flex;

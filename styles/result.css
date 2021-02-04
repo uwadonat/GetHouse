@@ -8,15 +8,16 @@
 }
 
 .container > .search-result-section {
-  order: 3;
+  order: 1;
+  margin-top: 10px
 }
 
 .top-highest {
-  order: 1;
+  order: 2;
 }
 
 .top-lowest {
-  order: 2;
+  order: 3;
 }
 
 .search-result-section-images {
@@ -60,11 +61,57 @@
   color: gold;
 }
 
-.top-houses-title {
-  color: darkviolet;
-  width: 300px;
+.search-result-title {
+opacity: 0.7;
 }
 
+.top-houses-title {
+  color: blueviolet;
+  width: 300px;
+  margin-left: 30px;
+}
+
+.filter-form {
+  width: 90%;
+  margin-left: -20px;
+}
+
+.filter-search {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  gap: 3px;
+}
+
+.filter-search-label {
+  margin-bottom: -20px;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.filter-search-button1, .filter-search-button2 {
+  margin-top: 20px;
+  color: white;
+  border-radius: 3px;
+}
+
+.filter-search-button1 {
+  background-color: blue;
+}
+
+.filter-search-button2 h6 {
+  width: 100px;
+  background-color:yellowgreen;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#price {
+  width: 60px;
+  height: 26px;
+}
 /* media queries for tablet */
 
 @media screen and (min-width: 768px) {
@@ -93,6 +140,7 @@
 @media screen and (min-width: 1024px) {
   .container {
     width: 100%;
+    margin-left: 90px;
   }
 
   .search-result-section > div {

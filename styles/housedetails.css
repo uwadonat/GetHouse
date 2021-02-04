@@ -23,8 +23,9 @@
     margin-right: 0;
   }
 
-  .house-galery > img {
+  .house-galery > p > img {
     width: 80%;
+    height:300px;
   }
 }
 
