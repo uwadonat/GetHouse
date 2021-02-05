@@ -68,7 +68,7 @@
 .top-houses-title {
   color: blueviolet;
   width: 300px;
-  margin-left: -30px;
+  margin-left: 70px;
 }
 
 .filter-form {
@@ -141,13 +141,20 @@
 
   .container > .top-lowest {
     order: 3;
-    width: 30%;
+    width: 80%;
+    text:center;
   }
 
   .top-house-title {
     color: blueviolet;
     width: 300px;
     margin-left: -35px;
+  }
+
+  .top-houses-title {
+    color: blueviolet;
+    width: 300px;
+    margin-left: -30px;
   }
 }
 
