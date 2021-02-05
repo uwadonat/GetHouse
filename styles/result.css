@@ -68,7 +68,7 @@
 .top-houses-title {
   color: blueviolet;
   width: 300px;
-  margin-left: 30px;
+  margin-left: -30px;
 }
 
 .filter-form {

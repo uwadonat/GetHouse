@@ -21,6 +21,13 @@
 
   .container {
     text-align: center;
+    margin-left: 100px;
+    margin-right: 40px;
+  }
+
+  .img-size {
+    width: 280px;
+    height: 200px;
   }
 
   .more-details {
