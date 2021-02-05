@@ -137,11 +137,12 @@
     order: 1;
     width: 30%;
   }
+  
   .top-houses-title {
     color: blueviolet;
     width: 300px;
     margin-left: -30px;
-  }   
+  }    
 }
 
 /* media queries for desktop */
