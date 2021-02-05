@@ -142,7 +142,7 @@
   .container > .top-lowest {
     order: 3;
     width: 80%;
-    text:center;
+    text-align: center;
   }
 
   .top-house-title {
