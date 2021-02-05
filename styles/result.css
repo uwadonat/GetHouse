@@ -126,6 +126,7 @@
     flex-flow: row wrap;
     gap: 2px;
     margin-left: 18px;
+    text-align: center;
   }
 
   .container > .search-result-section {
@@ -138,10 +139,15 @@
     width: 30%;
   }
 
+  .container > .top-lowest {
+    order: 3;
+    width: 30%;
+  }
+
   .top-house-title {
     color: blueviolet;
     width: 300px;
-    margin-left: -30px;
+    margin-left: -35px;
   }
 }
 
