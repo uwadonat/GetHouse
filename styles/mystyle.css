@@ -60,6 +60,10 @@ main:hover {
 }
 
 /* main part style */
+@keyframes example {
+  from {color: white;}
+  to {color: blue;}
+}
 
 .main-title {
   text-align: center;
@@ -67,6 +71,9 @@ main:hover {
   font-weight: bolder;
   font-size: 45px;
   padding-top: 35px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 .search-label {
