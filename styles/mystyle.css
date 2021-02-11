@@ -63,7 +63,8 @@ main:hover {
 @keyframes example {
   from {
     color: white;
-  } to {
+  }
+  to {
     color: blue;
   }
 }
