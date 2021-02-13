@@ -61,12 +61,8 @@ main:hover {
 
 /* main part style */
 @keyframes example {
-  from {
-    color: white;
-  }
-  to {
-    color: blue;
-  }
+  from { color: white; }
+  to { color: rgb(137, 137, 187); }
 }
 
 .main-title {
