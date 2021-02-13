@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  background-image: url(/images/body-bg-1.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* tablet styles */
+
+@media screen and (min-width: 768px) {
+  .house-galery {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1px;
+    max-width: 100%;
+  }
+
+  .container {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 40px;
+  }
+
+  .img-size {
+    width: 280px;
+    height: 200px;
+  }
+
+  .more-details {
+    margin-right: 0;
+  }
+
+  .house-galery > p > img {
+    width: 80%;
+    height: 200px;
+  }
+}
+
+/* desktop styles */
+
+@media screen and (min-width: 1024px) {
+  .house-galery {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 3px;
+  }
+}

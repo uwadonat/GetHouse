@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/mystyle.css">
+    <link rel="stylesheet" href="styles/result.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/32697fda3f.js"></script>
+    <title> GetHouse </title>
+</head>
+
+<body>
+    <!-- navigation bar for mobile version -->
+
+    <nav class="navbar navbar-mob" id="navmob">
+        <div class="navbar-logo">
+            <h1 class="logo-text text-center"><img class="logo" src="/images/logo.jpeg" alt="image loading">GEtHouse
+            </h1>
+        </div>
+        <ul class="navbar-links">
+            <li><a href="#"><i class="fas fa-search-location"></i></a></li>
+            <li><a href="#"><i class="far fa-user"></i></a></li>
+            <li><a href="#"><i class="fas fa-rss"></i></a></li>
+            <li><a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+        </ul>
+    </nav>
+
+    <!-- navigation bar for desktop -->
+
+    <nav class="navbar navbar-desktop">
+        <div class="navbar-logo">
+            <h1 class="logo-text text-center"><img class="logo" src="images/logo.jpeg" alt="image loading">GEtHouse
+            </h1>
+        </div>
+        <ul class="navbar-links navbar-links-desk">
+            <li><a href="#"><span><i class="fas fa-search-location"></i></span>SEARCH</a></li>
+            <li><a href="#"><span><i class="far fa-user"></i></span>ABOUT</a></li>
+            <li><a href="#"><span><i class="fas fa-rss"></i></span>BROGS</a></li>
+            <li><a href="#"><span><i class="fa fa-bars" aria-hidden="true"></i></span>MORE</a></li>
+        </ul>
+    </nav>
+
+    <!-- main part -->
+    <main class="container d-flex row justify-content-lg-center w-100 main1">
+
+        <!-- search result section -->
+
+        <section class="search-result-section text-center col-lg-5">
+            <h3 class="search-result-title">Filter by Price, district, Sector: </h3>
+            <Form class="filter-form">
+                <ul class="filter-search">
+                    <li>
+                        <label class="filter-search-label" for="price">Price*:</label><br>
+                        <input type="text" id="price">
+                    </li>
+                    <li>
+                        <label class="filter-search-label" for="district">district:</label><br>
+                        <select id="district" name="district">
+                         <option value="Kamonyi">Kamonyi</option>
+                            <option value="Muhanga">Muhanga</option>
+                            <option value="Gasabo">Kicukiro</option>
+                            <option value="Gasabo">Gasabo</option>
+                          </select>
+                    </li>
+                    <li>
+                        <label class="filter-search-label text-left" for="sector">Sector:</label><br>
+                        <select id="sector" name="sector">
+                         <option value="Kayenzi">Kayenzi</option>
+                            <option value="Runda">Runda</option>
+                            <option value="Rukoma">Rukoma</option>
+                            <option value="Remera">Remera</option>
+                          </select>
+                    </li>
+                    <li><input class="filter-search-button1" type="submit" value="Search"></li>
+                    <li class="filter-search-button2"><a href="#"><h6><i class="fa fa-pencil-square-o " aria-hidden="true"></i>clear filter</h6></a></li>
+                </ul>
+            </Form>
+            <h3 class="search-result-title">search result found 7 house(s) </h3>
+            <article>
+
+                <img src="images/image3.jpg" alt="image loading" class="search-result-section-images">
+                <h3 class="search-result-section-title text-center">Gabiro guest house</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo reprehenderit vel veritatis
+                    cumque laboriosam deserunt consequatur mollitia
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo reprehenderit vel
+                    veritatis cumque laboriosam deserunt consequatur mollitia
+                </p>
+                <ul class="search-result-section-footer">
+                    <li>Price:<span>2000$</span></li>
+                    <li>Date:<span>23-01-2021</span></li>
+                </ul>
+                <a href="housedetails.html">
+                    <p class="search-result-section-details"> Read More </p>
+                </a>
+            </article>
+            <hr>
+            <article>
+                <img src="images/image4.jpg" alt="image loading" class="search-result-section-images">
+                <h3 class="search-result-section-title text-center">Gabiro guest house</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo reprehenderit vel veritatis
+                    cumque laboriosam deserunt consequatur mollitia
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo reprehenderit vel
+                    veritatis cumque laboriosam deserunt consequatur mollitia
+                </p>
+                <ul class="search-result-section-footer">
+                    <li>Price:<span>2000$</span></li>
+                    <li>Date:<span>23-01-2021</span></li>
+                </ul>
+                <a href="housedetails.html">
+                    <p class="search-result-section-details"> Read More </p>
+                </a>
+            </article>
+            <hr>
+            <article>
+                <img src="images/image6.jpg" alt="image loading" class="search-result-section-images">
+                <h3 class="search-result-section-title text-center">Gabiro guest house</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo reprehenderit vel veritatis
+                    cumque laboriosam deserunt consequatur mollitia
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo reprehenderit vel
+                    veritatis cumque laboriosam deserunt consequatur mollitia
+                </p>
+                <ul class="search-result-section-footer">
+                    <li>Price:<span>2000$</span></li>
+                    <li>Date:<span>23-01-2021</span></li>
+                </ul>
+                <a href="housedetails.html">
+                    <p class="search-result-section-details"> Read More </p>
+                </a>
+            </article>
+            <hr>
+            <article>
+                <img src="images/image5.jpg" alt="image loading" class="search-result-section-images">
+                <h3 class="search-result-section-title text-center">Gabiro guest house</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo reprehenderit vel
+                        veritatis cumque laboriosam deserunt consequatur mollitia
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo reprehenderit vel
+                        veritatis cumque laboriosam deserunt consequatur mollitia
+                    </p>
+                    <ul class="search-result-section-footer">
+                        <li>Price:<span>2000$</span></li>
+                        <li>Date:<span>23-01-2021</span></li>
+                    </ul>
+                    <a href="housedetails.html">
+                        <p class="search-result-section-details"> Read More </p>
+                    </a>
+                </article>
+            <hr>
+            <article>
+                <img src="images/image7.jpg" alt="image loading" class="search-result-section-images">
+                <h3 class="search-result-section-title text-center">Gabiro guest house</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo reprehenderit vel
+                        veritatis cumque laboriosam deserunt consequatur mollitia
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo reprehenderit vel
+                        veritatis cumque laboriosam deserunt consequatur mollitia
+                    </p>
+                    <ul class="search-result-section-footer">
+                        <li>Price:<span>2000$</span></li>
+                        <li>Date:<span>23-01-2021</span></li>
+                    </ul>
+                    <a href="housedetails.html">
+                        <p class="search-result-section-details"> Read More </p>
+                    </a>
+                </article>
+
+        </section>
+
+        <!-- top highest and lowest house -->
+
+        <aside class="top-highest text-center col-lg-3 p-0">
+            <h2 class="top-houses-title"> Top 5 highest house </h2>
+            <hr>
+            <figure class="card">
+                <img class="top-houses-images" src="images/image20.jpg" alt="image loadding" style="width:100%">
+                <h3>Kigali convation Center</h3>
+                <p class="price">$15000.99</p>
+                <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo
+                    reprehenderit vel veritatis cumque laboriosam deserunt consequatur mollitia</p>
+                <p><button type="button">Add to Cart</button></p>
+                </figure>
+
+            <figure class="card text-center">
+                <img class="top-houses-images" src="images/image11.jpg" alt="image loadding" style="width:100%">
+                <h3>Kigali convation Center</h3>
+                <p class="price">$65000.99</p>
+                <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo
+                    reprehenderit vel veritatis cumque laboriosam deserunt consequatur mollitia</p>
+                <p><button type="button">Add to Cart</button></p>
+            </figure>
+
+            <figure class="card text-center">
+                <img class="top-houses-images" src="images/image12.jpg" alt="image loadding" style="width:100%">
+                <h3>Kigali convation Center</h3>
+                <p class="price">$75000.99</p>
+                <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo
+                    reprehenderit vel veritatis cumque laboriosam deserunt consequatur mollitia</p>
+                <p><button type="button">Add to Cart</button></p>
+                </figure>
+
+            <figure class="card text-center">
+                <img class="top-houses-images" src="images/image12.jpg" alt="image loadding" style="width:100%">
+                <h3>Kigali convation Center</h3>
+                <p class="price">$75000.99</p>
+                <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo
+                    reprehenderit vel veritatis cumque laboriosam deserunt consequatur mollitia</p>
+                <p><button type="button">Add to Cart</button></p>
+                </figure>
+
+            <figure class="card text-center">
+                <img class="top-houses-images" src="images/image12.jpg" alt="image loadding" style="width:100%">
+                <h3>Kigali convation Center</h3>
+                <p class="price">$75000.99</p>
+                <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo
+                    reprehenderit vel veritatis cumque laboriosam deserunt consequatur mollitia</p>
+                <p><button type="button">Add to Cart</button></p>
+                </figure>
+
+            <figure class="card text-center">
+                <img class="top-houses-images" src="images/image12.jpg" alt="image loadding" style="width:100%">
+                <h3>Kigali convation Center</h3>
+                <p class="price">$75000.99</p>
+                <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo
+                    reprehenderit vel veritatis cumque laboriosam deserunt consequatur mollitia</p>
+                <p><button type="button">Add to Cart</button></p>
+                </figure>
+
+            <figure class="card text-center">
+                <img class="top-houses-images" src="images/image12.jpg" alt="image loadding" style="width:100%">
+                <h3>Kigali convation Center</h3>
+                <p class="price">$75000.99</p>
+                <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo
+                    reprehenderit vel veritatis cumque laboriosam deserunt consequatur mollitia</p>
+                <p><button type="button">Add to Cart</button></p>
+                </figure>
+
+        </aside>
+
+
+        <aside class="top-lowest text-center col-lg-3">
+            <h2 class="top-houses-title"> Top 5 Cheapest house </h2>
+            <hr>
+            <figure class="card text-center">
+                <img src="images/image12.jpg" alt="image loadding" style="width:100%">
+                <h3>Kigali convation Center</h3>
+                <p class="price">$75000.99</p>
+                <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo
+                    reprehenderit vel veritatis cumque laboriosam deserunt consequatur mollitia</p>
+                <p><button type="button">Add to Cart</button></p>
+                </figure>
+
+            <figure class="card text-center">
+                <img src="images/image12.jpg" alt="image loadding" style="width:100%">
+                <h3>Kigali convation Center</h3>
+                <p class="price">$75000.99</p>
+                <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo
+                    reprehenderit vel veritatis cumque laboriosam deserunt consequatur mollitia</p>
+                <p><button type="button">Add to Cart</button></p>
+                </figure>
+
+            <figure class="card text-center">
+                <img src="images/image12.jpg" alt="image loadding" style="width:100%">
+                <h3>Kigali convation Center</h3>
+                <p class="price">$75000.99</p>
+                <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo
+                    reprehenderit vel veritatis cumque laboriosam deserunt consequatur mollitia</p>
+                <p><button type="button">Add to Cart</button></p>
+                </figure>
+
+            <figure class="card text-center">
+                <img src="images/image12.jpg" alt="image loadding" style="width:100%">
+                <h3>Kigali convation Center</h3>
+                <p class="price">$75000.99</p>
+                <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo
+                    reprehenderit vel veritatis cumque laboriosam deserunt consequatur mollitia</p>
+                <p><button type="button">Add to Cart</button></p>
+                </figure>
+
+            <figure class="card text-center">
+                <img src="images/image12.jpg" alt="image loadding" style="width:100%">
+                <h3>Kigali convation Center</h3>
+                <p class="price">$75000.99</p>
+                <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo
+                    reprehenderit vel veritatis cumque laboriosam deserunt consequatur mollitia</p>
+                <p><button type="button">Add to Cart</button></p>
+                </figure>
+
+            <figure class="card text-center">
+                <img src="images/image12.jpg" alt="image loadding" style="width:100%">
+                <h3>Kigali convation Center</h3>
+                <p class="price">$75000.99</p>
+                <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo
+                    reprehenderit vel veritatis cumque laboriosam deserunt consequatur mollitia</p>
+                <p><button type="button">Add to Cart</button></p>
+                </figure>
+
+            <figure class="card text-center">
+                <img src="images/image12.jpg" alt="image loadding" style="width:100%">
+                <h3>Kigali convation Center</h3>
+                <p class="price">$75000.99</p>
+                <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum fugit quo
+                    reprehenderit vel veritatis cumque laboriosam deserunt consequatur mollitia</p>
+                <p><button type="button">Add to Cart</button></p>
+                </figure>
+        </aside>
+
+
+
+    </main>
+
+    <!-- trial code
+            <div class="row ">
+                <div class="d-flex flex-lg-row flex-sm-column ">
+                  <div class="">
+                    <section class="section1 bg-primary ">hello1</section>
+                    <section class="section3 bg-danger ">hello3</section>
+                  </div>
+                 <div>
+                  <section class="section2 bg-secondary h-100 ">hello2</section>
+                 </div>
+                </div>
+              </div> -->
+
+</body>
+
+</html>
